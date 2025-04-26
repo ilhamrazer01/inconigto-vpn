@@ -1,4 +1,4 @@
-name = "siren"
+name = "genia"
 main = "build/worker/shim.mjs"
 compatibility_date = "2024-05-23"
 minify = true
@@ -6,27 +6,29 @@ workers_dev = true
 
 
 routes = [
-  { pattern = "inconigto.biz.id", custom_domain = true },
-  { pattern = "ava.game.naver.com.inconigto.biz.id", custom_domain = true },
-  { pattern = "quiz.int.vidio.com.inconigto.biz.id", custom_domain = true },
-  { pattern = "graph.instagram.com.inconigto.biz.id", custom_domain = true },
-  { pattern = "zaintest.vuclip.com.inconigto.biz.id", custom_domain = true },
-  { pattern = "support.zoom.us.inconigto.biz.id", custom_domain = true },
-  { pattern = "cache.netflix.com.inconigto.biz.id", custom_domain = true },
+  { pattern = "cyantiknya.my.id", custom_domain = true },
+  { pattern = "ava.game.naver.com.cyantiknya.my.id", custom_domain = true },
+  { pattern = "bakrie.ac.id.cyantiknya.my.id", custom_domain = true },
+  { pattern = "quiz.int.vidio.com.cyantiknya.my.id", custom_domain = true },
+  { pattern = "graph.instagram.com.cyantiknya.my.id", custom_domain = true },
+  { pattern = "zaintest.vuclip.com.cyantiknya.my.id", custom_domain = true },
+  { pattern = "support.zoom.us.cyantiknya.my.id", custom_domain = true },
+  { pattern = "cache.netflix.com.cyantiknya.my.id", custom_domain = true },
 
-  { pattern = "inconigto.web.id", custom_domain = true },
-  { pattern = "ava.game.naver.com.inconigto.web.id", custom_domain = true },
-  { pattern = "quiz.int.vidio.com.inconigto.web.id", custom_domain = true },
-  { pattern = "graph.instagram.com.inconigto.web.id", custom_domain = true },
-  { pattern = "zaintest.vuclip.com.inconigto.web.id", custom_domain = true },
-  { pattern = "support.zoom.us.inconigto.web.id", custom_domain = true },
-  { pattern = "cache.netflix.com.inconigto.web.id", custom_domain = true },
+  { pattern = "zxblues.biz.id", custom_domain = true },
+  { pattern = "ava.game.naver.com.zxblues.biz.id", custom_domain = true },
+  { pattern = "bakrie.ac.id.zxblues.biz.id", custom_domain = true },
+  { pattern = "quiz.int.vidio.com.zxblues.biz.id", custom_domain = true },
+  { pattern = "graph.instagram.com.zxblues.biz.id", custom_domain = true },
+  { pattern = "zaintest.vuclip.com.zxblues.biz.id", custom_domain = true },
+  { pattern = "support.zoom.us.zxblues.biz.id", custom_domain = true },
+  { pattern = "cache.netflix.com.zxblues.biz.id", custom_domain = true },
 ]
 
 
 [[kv_namespaces]]
-binding = "SIREN"
-id = "f7a1c12a83d349bb8e8868e7d524ac4c"
+binding = "SKYNET"
+id = "167d6a62fb07471883a281b0da54523f"
 [build]
 command = "cargo install -q worker-build && worker-build --release"
 
@@ -35,6 +37,6 @@ build = { command = "cargo install -q worker-build && worker-build --dev" }
 
 [vars]
 UUID = "bbbbbbbb-cccc-4ddd-eeee-ffffffffffff"
-MAIN_PAGE_URL = "https://raw.githubusercontent.com/InconigtoMode/inconigto-vpn/refs/heads/master/web/index.html"
-SUB_PAGE_URL = "https://raw.githubusercontent.com/InconigtoMode/inconigto-vpn/refs/heads/master/web/sub.html"
-LINK_PAGE_URL = "https://raw.githubusercontent.com/InconigtoMode/inconigto-vpn/refs/heads/master/web/link.html"
+MAIN_PAGE_URL = "https://raw.githubusercontent.com/ilhamrazer01/inconigto-vpn/refs/heads/master/web/index.html"
+SUB_PAGE_URL = "https://raw.githubusercontent.com/ilhamrazer01/inconigto-vpn/refs/heads/master/web/sub.html"
+LINK_PAGE_URL = "https://raw.githubusercontent.com/ilhamrazer01/inconigto-vpn/refs/heads/master/web/link.html"
